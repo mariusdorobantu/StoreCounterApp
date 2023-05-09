@@ -1,0 +1,98 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Yeon Sung', cursive, 'Times New Roman';
+}
+
+body {
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    caret-color: transparent; /* text cursor */
+    cursor: default;
+    -webkit-user-select: none; /* dez. selectare text Safari */
+    -ms-user-select: none; /* dez. selectare textIE 10 and IE 11 */
+    user-select: none; /* dez. selectare textStandard syntax */
+}
+
+h2 {
+    font-size: 70px;
+    padding-top: 10px;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+.whole_app {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 300px;
+    min-height: 500px;
+    padding: 20px;
+    background: #1C90D9;
+    border-radius: 65px;
+    box-shadow: 0 35px 55px;
+}
+    
+p, h1, h2 {
+    text-align: center;
+}
+  
+.container_btn {
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    font-weight: bold;
+}
+  
+.incrementare_btn {
+    width: 260px;
+    height: 50px;
+    background: #17B4FC;
+    cursor: pointer;
+    border-radius: 15px;
+}
+  
+.salvare_btn {
+    color:white;
+    font-family:Helvetica, sans-serif;
+    font-weight:bold;
+    font-size: 36px;
+    text-decoration:none;
+    background-color:#17B4FC;
+    border-radius: 15px;
+    width: 260px;
+    height: 50px;
+  }
+
+#reset_btn {
+    width: 260px;
+    height: 50px;
+    background: red;
+    cursor: pointer;
+    border-radius: 15px;
+}
+  
+#reset_btn:active {
+    background-color: rgba(63, 2, 2, 0.795);
+}
+
+.incrementare_btn, .salvare_btn, #reset_btn {
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.salvare_btn:active, .incrementare_btn:active {
+    background-color:#009cf7; 
+}
+
+
+
